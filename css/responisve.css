@@ -1,0 +1,46 @@
+@media (max-width: 992px) { 
+ .nav-bar li{
+    display: none;
+
+ }
+ .Contacts-button{
+    display: none;
+ }
+ .hamburger-menu{
+   
+   border: 1px solid black;
+ }
+.hamburger-line{
+   display: block;
+   width: 45px;
+   height: 35px;
+   position: absolute;
+   top: 20px;
+   right: 15px;
+   display: flex;
+   z-index: 5;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.hamburger-line .line{
+   background-color: black;
+   display: block;
+   height: 4px;
+   width: 100%;
+   border-radius: 20px;
+}
+.ham-menu ul{
+   display:flex ;
+   flex-direction: column;
+   gap: 30px;
+}
+.hamburger-menu:hover .ham-menu{
+   display: block;
+}
+.ham-menu ul{
+   position: absolute;
+   top: 120%;
+   right: 40%;
+}
+
+ }

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+}
+/* .header start  */
+.logo{
+    width: 150px;
+}
+.logo img{
+    width:100% ;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.hamburger-menu input {
+    display: none;
+}
+
+li{
+    list-style:none;
+    display: inline-block;
+    margin: 15px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "DM Serif Display", serif;
+}
+li a:hover{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    border-bottom: 3px solid black;
+}
+.btn-primary{
+    padding: 5px 13px;
+    border: none;
+    background-color: white;
+}
+.btn-primary a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 13px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "DM Serif Display", serif;
+    border: 2px solid black;
+}
+.btn-primary a:hover{
+   background-color: #9EDF9C;
+   padding: 5px 13px;
+   border-radius: 20px;
+}
+
+.ham-menu{
+    display: none;
+}
+/* header end  */
+/* banner section start  */
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.bold-heading h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+ .social-media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .social-media ul{
+    padding-left: 0;
+ }
+.social-media li{
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+.social-media ul li:last-child{
+    padding: 10px 18px;
+}
+.viewers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ig-viewer li{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fb-viewer li{
+    font-size: 30px;
+    font-weight: 700;
+}
+.image-I {
+    width: 600px;
+    position: relative;
+}
+.image-I img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius:40px ;
+    border-top-left-radius: 150px;
+
+}
+.circles{
+    position: absolute;
+    bottom: 0;
+    left:0px;
+    background-color: white;
+    border-top-right-radius: 50px;
+    padding: 20px 10px;
+
+}
+.circles .circle1{
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('/image/sree.png');
+    background-size: cover;
+}
+.circles .circle2{
+    padding: 20px;
+    margin:20px 0 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('/image/srijesh.png');
+    background-size: cover;
+}
+.circles .circle3{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.circle3 i{
+    padding: 18px;
+}
+.circle3 a{
+    color: white;
+}
+.circle-I{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right:0px;
+    background-color: white;
+    border-radius: 0;
+    padding:5px 5px 10px 15px ;
+    border-bottom-left-radius: 40px;
+}
+.circle4{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.circle4 i{
+    padding: 18px;
+   
+}
+.circle4 a{
+    color: white;
+}
+/* banner section end  */
